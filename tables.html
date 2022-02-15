@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Elements</title>
+    <link rel="stylesheet" href="assets/styles/table.css">
+</head>
+<body>
+    <!-- Table Elements
+            table = parent element
+            tr = table row (row)
+            th = table header (heading column)
+            td = table data (data column)
+
+            colspan(attribute) = merge column cells
+            rowspan(attribute) = merge row cells
+
+            Grouping table contents
+                thead = group head content
+                tbody = group body content
+                tfoot = group footer content
+    
+    -->
+    <h2>Sample table using TH</h2>
+    <table border="1" class="table-1" width="300px">
+        <tr>
+            <th>Title 1</th>
+            <th></th>
+            <th>Title 3</th>
+        </tr>
+        <tr>
+            <th>Title 4</th>
+            <th>Title 5</th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Title 8</th>
+            <th>Title 9</th>
+        </tr>
+    </table>
+
+    <h2>Sample Table using TD</h2>
+    <table border="1" class="table-2" width="300px">
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+        </tr>
+        <tr>
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+        </tr>
+        <tr>
+            <td>Data 7</td>
+            <td>Data 8</td>
+            <td>Data 9</td>
+        </tr>
+    </table>
+
+    <h2>Sample Table using TH and TD</h2>
+    <table border="1" class="table-3" width="100%">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Smith</td>
+            <td>California</td>
+            <td>34</td>
+            <td>johnsmith@gmail.com</td>
+            
+        </tr>
+        <tr>
+            <td>Adam Babulae</td>
+            <td>Los Angeles, California</td>
+            <td>26</td>
+            <td>adam1234@yahoo.com</td>
+        </tr>
+    </table>
+
+    <h2>Sample Table using Colspan</h2>
+    <table border="1" class="table-4">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Numbers</th>
+            <!-- <th></th> -->
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>1232134345</td>
+            <td>4353456554</td>
+        </tr>
+        <tr>
+            <td>Steve</td>
+            <td>34234234235</td>
+            <td>42342342312</td>
+        </tr>
+    </table>
+
+    <h2>Sample Table using Rowspan</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <td>Bill</td>
+            <td>Steve</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Contact Numbers</th>
+            <td>34234234532</td>
+            <td>23423423423</td>
+        </tr>
+        <tr>
+            <!-- <th></th> -->
+            <td>34234234234</td>
+            <td>42342342354</td>
+        </tr>
+    </table>
+
+    <h2>Sample Table using grouping table contents</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">title 1</th>
+                <th>title 2</th>
+                <th>title 3</th>
+            </tr>
+            <tr>
+                <!-- <th>subtitle 1</th> -->
+                <th>subtitle 2</th>
+                <th>subtitle 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+            <tr>
+                <!-- <td>data 4</td> -->
+                <td>data 5</td>
+                <td>data 6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total 1</th>
+                <th>total 2</th>
+                <th>total 3</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

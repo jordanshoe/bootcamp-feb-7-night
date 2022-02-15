@@ -1,0 +1,21 @@
+/* image properties */
+
+.bg{
+    background:gray url(../images/gar.jpg) no-repeat center fixed ;
+    background-size: cover;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.photo-1{
+    width: 30%;
+}
+p{
+    background-image: url(../images/junk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,15 @@
+/* Table Properties */
+.table-1{
+    empty-cells: hide;
+}
+.table-2{
+    border-collapse: collapse;
+    text-align: center;
+}
+.table-3{
+    border-spacing: 20px;
+    width: 50%;
+}
+.table-4{
+    border-spacing: 15px 30px;
+}

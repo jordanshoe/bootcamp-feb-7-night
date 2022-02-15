@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Rowdies:wght@700&display=swap');
+
+/* 
+        font-family: 'Festive', cursive;
+        font-family: 'Rowdies', cursive;
+*/
+
+/* CSS typography */
+ol{
+    background-color: aqua;
+    list-style: upper-roman inside;
+}
+ol li{
+    background-color: green;
+}
+h1{
+    background-color: #000000;
+    color: white;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .8);
+    color: #8f2a2a;
+    opacity: .8;
+    font-family: serif;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: center;
+    /* text-shadow:x y z color; */
+    text-shadow: 3px 3px 5px yellow;
+    letter-spacing: 20px;
+}
+h2{
+    font-family: sans-serif;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-align: right;
+}
+h3{
+    font-family: monospace;
+}
+.chapter{
+    font-family: 'Rowdies', cursive;
+    font-weight: 900;
+}
+.chapter-1{
+    text-align: center;
+}
+.chapter-1 .chapter{
+    text-align: left;
+}
+.chapter-1 p{
+    font-family: 'Festive', cursive;
+    font-weight: 700;
+    font-style: oblique;
+    word-spacing: 30px;
+}
+.chapter-1 p a{
+    font-weight: 900;
+    text-decoration: none;
+}
+.chapter-2{
+    font-size: 16px;
+}
+.chapter-2 p{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-indent: 2em;
+}
+.chapter-3{
+    font-size: 20px;
+}
+.chapter-3 p{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: italic;
+}
+.chapter-3 p span{
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: line-through;
+}
+.sns ul{
+    list-style: lower-alpha;
+    background-color: yellowgreen;
+    list-style-position: inside;
+}
+.sns ul li{
+    background-color: gray;
+}

@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 4px solid red;
+    padding: 20px;
+}
+.header h1{
+    border: 2px dashed green;
+    float: left;
+}
+.header .sns{
+    border: 2px dashed blue;
+    float: right;
+    margin-top: 10px;
+}
+.header .sns a{
+    border: 1px solid red;
+    width: 100px;
+    display: block;
+}
+.header p{
+    border: 2px dashed black;
+    clear: both;
+}
+.nav{
+    border: 4px solid red;
+    overflow: auto;
+    padding: 20px;
+}
+.nav img{
+    width: 50px;
+    height: 50px;
+    border: 2px dashed yellow;
+    float: left;
+}
+.nav ul{
+    border: 2px dashed black;
+    float: right;
+}
+.nav ul li{
+    border: 1px solid red;
+    display: inline;
+    margin-left: 20px;
+}
+.section{
+    border: 4px solid red;
+    overflow: auto;
+   
+}
+.article{
+    border: 2px dashed green;
+    width: 70%;
+    height: 500px;
+    float: left;
+    padding: 20px;
+}
+.static{
+    border: 2px solid yellow;
+    width: 100px;
+    position: static;
+    left: 100px; /*no support*/
+}
+.relative{
+    background-color: purple;
+    border: 2px solid purple;
+    width: 100px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    z-index: 100;
+}
+.fixed{
+    background-color: green;
+    border: 2px solid green;
+    width: 100px;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    z-index: 200;
+}
+.absolute{
+    background-color: blue;
+    border: 2px solid blue;
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    z-index: 201;
+}
+.relative-2{
+    background-color: gray;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.sidebar{
+    border: 2px dashed blue;
+    width: 30%;
+    height: 500px;
+    float: right;
+    padding: 20px;
+}
+.sidebar a{
+    background-color: aqua;
+    padding: 20px;
+    display: inline-block;
+}
+.sidebar img{
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+}
+.footer{
+    border: 4px solid red;
+    overflow: auto;
+}
+.logo{
+    border: 2px dashed green;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.footer p{
+    border: 2px dashed purple;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer-sns{
+    border: 2px dashed black;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer-sns a{
+    border: 2px dashed black;
+    width: 100px;
+    display: inline-block;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+/* Position properties
+        values:
+            static = no movement
+            relative = original position
+            fixed = body position and does not affects scrolling.
+            absolute body position and does affects scrolling (best use as child position)
+
+        offset Properties (movement)
+            left:0;
+            top:0;
+            right:
+            bottom:
+
+*/
